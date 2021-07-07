@@ -43,6 +43,12 @@ li {
     border-radius: 60px 0 0 60px;
 }
 
+.my-name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .figure {
     margin-bottom: 0;
 }
@@ -61,6 +67,11 @@ li {
 
     background-color: black;
     border: 0;
+}
+
+.section__photo{
+    width: 300px;
+    height: 200px;
 }
 
 .main {
@@ -111,7 +122,7 @@ li {
     border: 0;
 }
 
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 1024px) {
     .wrap {
         flex-wrap: wrap;
     }
